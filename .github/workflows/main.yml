@@ -20,10 +20,5 @@ jobs:
         run: npm install 
       - name: npm test
         run: npm test
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 13eca6158498b0f267dd4ff5bcb4045d07b2278f
       - name: Test the code
         run: echo "Replace this with the test code"
