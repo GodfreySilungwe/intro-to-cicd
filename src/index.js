@@ -3,4 +3,3 @@ function sayHi(name) {
 }
 
 module.exports = sayHi
-// added a comment in index.js"
