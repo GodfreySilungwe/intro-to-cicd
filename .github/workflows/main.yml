@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # checks out the current git commit so we can use it.
+      # checks out the current git commit, so we can use it.
       # read more at https://github.com/orgs/community/discussions/25682
       - uses: actions/checkout@v4
       - name: Run a one-line script
@@ -20,7 +20,10 @@ jobs:
         run: npm install 
       - name: npm test
         run: npm test
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 13eca6158498b0f267dd4ff5bcb4045d07b2278f
       - name: Test the code
         run: echo "Replace this with the test code"
